@@ -15,7 +15,7 @@ Password-based key derivation with PBKDF2 ensures strong protection.
 
 ---
 
-## 🚀 Usage
+USAGE:
 
 ### 🔐 Encrypt all `.txt` files in a folder
 ```bash
