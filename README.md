@@ -12,6 +12,13 @@ Password-based key derivation with PBKDF2 ensures strong protection.
 - Encrypted files get `.enc` extension
 - Decrypted files get `.dec` extension
 
+
+🛠️ Requirements
+Install dependencies via pip:
+```
+pip install pycryptodome
+```
+
 ## Usage
 ### Encrypt all `.*` files in a folder
 ```
@@ -22,11 +29,6 @@ python3 rwarev2.py encrypt <folder_path>
 python3 rwarev2.py decrypt <folder_path>
 ```
 
-🛠️ Requirements
-Install dependencies via pip:
-```
-pip install pycryptodome
-```
 
 ```
 ⚠️ Notes
