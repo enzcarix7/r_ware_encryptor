@@ -23,48 +23,48 @@ python3 decrypt.py encrypt <folder_path>
 ```
 
 🛠️ Requirements
-
 Install dependencies via pip:
+‘‘‘
 pip install pycryptodome
+‘‘‘
 
 ⚠️ Notes
-	•	The script stores the IV and Salt directly in the encrypted file.
-	•	Original files are NOT deleted by default. If you want to auto-remove original files after encryption/decryption, just uncomment the remove() lines in the script.
-	•	Decrypted files will have the .dec extension — original names are not restored.
-	•	Only files ending in .txt will be encrypted (you can modify this behavior easily in the code).
+• The script stores the IV and Salt directly in the encrypted file.
+• Original files are NOT deleted by default. If you want to auto-remove original files after encryption/decryption, just uncomment the remove() lines in the script.
+• Decrypted files will have the .dec extension — original names are not restored.
+• Only files ending in .txt will be encrypted (you can modify this behavior easily in the code).
 
 📁 Example
-
 Given this folder structure:
+
 ```bash
+Before running:
 /docs
-  ├── secret1.txt
-  ├── secret2.txt
-  └── image.png
+  ├── test1.txt
+  ├── test2.txt
+  └── test.png.enc
 
 After running:
 /docs
-  ├── secret1.txt.enc
-  ├── secret2.txt.enc
-  └── image.png
+  ├── test1.txt.enc
+  ├── test2.txt.enc
+  └── test3.png.enc
 ```
 
 
 ⚠️ DISCLAIMER
-
 This project is provided for educational and research purposes only.
-
 The author does not take any responsibility for:
-	•	Misuse of the script
-	•	Data loss
-	•	Encrypted files being unrecoverable due to forgotten passwords
-	•	Any damages caused by running or modifying this code
+• Misuse of the script
+• Data loss
+• Encrypted files being unrecoverable due to forgotten passwords
+• Any damages caused by running or modifying this code
 
 By using this software, you agree to use it at your own risk.
 No guarantees are made regarding security, performance, or suitability for any specific task.
 
 Do not use this tool on systems or data you do not own or have explicit permission to access.
 
-⸻
-
+‘‘‘
 Made with ❤️
+‘‘‘
