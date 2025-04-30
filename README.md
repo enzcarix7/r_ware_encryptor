@@ -14,12 +14,12 @@ Password-based key derivation with PBKDF2 ensures strong protection.
 
 ## 🚀 Usage
 ### 🔐 Encrypt all `.txt` files in a folder
-```bash
-python3 encryptor.py encrypt <folder_path>
+```
+python3 rwarev2.py encrypt <folder_path>
 ```
 Decrypt all .txt files in a folder
-```bash
-python3 decrypt.py encrypt <folder_path>
+```
+python3 rwarev2.py decrypt <folder_path>
 ```
 
 🛠️ Requirements
@@ -28,27 +28,35 @@ Install dependencies via pip:
 pip install pycryptodome
 ‘‘‘
 
+‘‘‘
 ⚠️ Notes
 • The script stores the IV and Salt directly in the encrypted file.
 • Original files are NOT deleted by default. If you want to auto-remove original files after encryption/decryption, just uncomment the remove() lines in the script.
-• Decrypted files will have the .dec extension — original names are not restored.
-• Only files ending in .txt will be encrypted (you can modify this behavior easily in the code).
+• Decrypted files will have the .dec extension, original names are not restored.
+•	The script encrypts all files except those with the .enc extension.
+‘‘‘
 
 📁 Example
 Given this folder structure:
 
-```bash
+```
 Before running:
 /docs
   ├── test1.txt
   ├── test2.txt
   └── test.png.enc
 
-After running:
+After running (enc):
 /docs
   ├── test1.txt.enc
   ├── test2.txt.enc
   └── test3.png.enc
+
+After running (dec):
+/docs
+  ├── test1.txt.enc
+  ├── test2.txt.enc
+  └── test.png.enc
 ```
 
 
