@@ -17,7 +17,7 @@ Password-based key derivation with PBKDF2 ensures strong protection.
 ```
 python3 rwarev2.py encrypt <folder_path>
 ```
-Decrypt all .txt files in a folder
+Decrypt all .* files in a folder
 ```
 python3 rwarev2.py decrypt <folder_path>
 ```
