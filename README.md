@@ -33,7 +33,7 @@ pip install pycryptodome
 • The script stores the IV and Salt directly in the encrypted file.
 • Original files are NOT deleted by default. If you want to auto-remove original files after encryption/decryption, just uncomment the remove() lines in the script.
 • Decrypted files will have the .dec extension, original names are not restored.
-•	The script encrypts all files except those with the .enc extension.
+• The script encrypts all files except those with the .enc extension.
 ```
 
 📁 Example
