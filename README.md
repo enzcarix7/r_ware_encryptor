@@ -38,8 +38,7 @@ python3 rwarev2.py decrypt <folder_path>
 • The script encrypts all files except those with the .enc extension.
 ```
 
-📁 Example
-Given this folder structure:
+Example - given this folder structure:
 
 ```
 Before running:
