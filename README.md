@@ -1,9 +1,9 @@
-# 🔐 AES File Encryptor
+# AES File Encryptor
 
 Simple Python script to **encrypt and decrypt `.*` files** in a given folder using **AES-256 in CBC mode**.  
 Password-based key derivation with PBKDF2 ensures strong protection.
 
-## 💡 Features
+## Features
 - AES-256 encryption (CBC mode)
 - Random IV and Salt for every file
 - Password-based key derivation using PBKDF2
@@ -12,12 +12,12 @@ Password-based key derivation with PBKDF2 ensures strong protection.
 - Encrypted files get `.enc` extension
 - Decrypted files get `.dec` extension
 
-## 🚀 Usage
-### 🔐 Encrypt all `.*` files in a folder
+## Usage
+### Encrypt all `.*` files in a folder
 ```
 python3 rwarev2.py encrypt <folder_path>
 ```
-Decrypt all .* files in a folder
+### Decrypt all .* files in a folder
 ```
 python3 rwarev2.py decrypt <folder_path>
 ```
