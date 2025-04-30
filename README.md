@@ -16,9 +16,11 @@ Password-based key derivation with PBKDF2 ensures strong protection.
 ### 🔐 Encrypt all `.txt` files in a folder
 ```bash
 python3 encryptor.py encrypt <folder_path>
-
+```
 Decrypt all .txt files in a folder
-python3 encryptor.py decrypt <folder_path>
+```bash
+python3 decrypt.py encrypt <folder_path>
+```
 
 🛠️ Requirements
 
