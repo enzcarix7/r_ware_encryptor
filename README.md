@@ -36,15 +36,19 @@ pip install pycryptodome
 📁 Example
 
 Given this folder structure:
+```bash
 /docs
   ├── secret1.txt
   ├── secret2.txt
   └── image.png
+
 After running:
 /docs
   ├── secret1.txt.enc
   ├── secret2.txt.enc
   └── image.png
+```
+
 
 ⚠️ DISCLAIMER
 
