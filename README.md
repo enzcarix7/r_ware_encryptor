@@ -1,6 +1,6 @@
 # 🔐 AES File Encryptor
 
-Simple Python script to **encrypt and decrypt `.txt` files** in a given folder using **AES-256 in CBC mode**.  
+Simple Python script to **encrypt and decrypt `.*` files** in a given folder using **AES-256 in CBC mode**.  
 Password-based key derivation with PBKDF2 ensures strong protection.
 
 ## 💡 Features
@@ -13,7 +13,7 @@ Password-based key derivation with PBKDF2 ensures strong protection.
 - Decrypted files get `.dec` extension
 
 ## 🚀 Usage
-### 🔐 Encrypt all `.txt` files in a folder
+### 🔐 Encrypt all `.*` files in a folder
 ```
 python3 rwarev2.py encrypt <folder_path>
 ```
@@ -24,17 +24,17 @@ python3 rwarev2.py decrypt <folder_path>
 
 🛠️ Requirements
 Install dependencies via pip:
-‘‘‘
+```
 pip install pycryptodome
-‘‘‘
+```
 
-‘‘‘
+```
 ⚠️ Notes
 • The script stores the IV and Salt directly in the encrypted file.
 • Original files are NOT deleted by default. If you want to auto-remove original files after encryption/decryption, just uncomment the remove() lines in the script.
 • Decrypted files will have the .dec extension, original names are not restored.
 •	The script encrypts all files except those with the .enc extension.
-‘‘‘
+```
 
 📁 Example
 Given this folder structure:
