@@ -73,6 +73,6 @@ No guarantees are made regarding security, performance, or suitability for any s
 
 Do not use this tool on systems or data you do not own or have explicit permission to access.
 
-‘‘‘
+```
 Made with ❤️
-‘‘‘
+```
